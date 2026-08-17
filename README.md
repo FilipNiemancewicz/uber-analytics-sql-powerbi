@@ -1,2 +1,60 @@
 # uber-analytics-sql-powerbi
-End-to-end data analytics project: Extracting, transforming, and querying Uber ride-hailing datasets with SQL, combined with interactive Power BI dashboards and DAX metrics for operational, revenue, and cancellation analysis
+
+# 🚖 Uber Ride Operations & Revenue Analytics (SQL + Power BI)
+
+## 📌 Project Overview
+An end-to-end Business Intelligence project analyzing **150,000+ Uber ride bookings**. The goal was to extract and clean relational data using **SQL**, build a star-schema dimensional model, calculate business-critical metrics using **DAX**, and design an executive-ready multi-page dashboard in **Power BI**.
+
+---
+
+## 🎯 Key Business Questions Answered
+* **Revenue & Growth:** Which vehicle categories and payment methods generate the highest revenue?
+* **Cancellations & Lost Revenue:** Why are rides cancelled, who cancels most frequently (driver vs customer), and what are the peak cancellation hours?
+* **Fleet Performance & Quality:** How do customer and driver ratings correlate across different vehicle categories (*Premier Sedan*, *Auto*, *eBike*, etc.)?
+
+---
+
+## 🛠️ Tech Stack & Methods
+* **SQL (Database & Querying):** Data cleansing, handling NULLs, aggregation, window functions, and preparing views for BI consumption.
+* **Power BI (Visual Design & UX):** Custom modern UI, responsive containers, custom bookmarks/slicers, and theme styling.
+* **DAX (Data Modeling & Measures):**
+  * Dynamic Revenue calculation (`Total Revenue`, `Lost Revenue`).
+  * Completion & Cancellation rates (`Completion Rate %`, `Cancellation Rate %`).
+  * Unit economics (`Avg Revenue per Order`, `Avg Revenue per KM`).
+
+---
+
+## 📊 Dashboard Architecture & Pages
+
+### 1. Overall Performance (Executive Summary)
+* High-level KPIs: Total Orders (150K), Total Revenue (47.26M), Completion Rate (62%), Avg Customer Rating (4.40).
+* Monthly order volume trends and revenue split across vehicle types and payment channels.
+
+### 2. Vehicle Analysis
+* Fleet breakdown comparing ride volume, revenue contribution, and average ratings across categories (*Auto*, *Bike*, *eBike*, *Go Sedan*, *Premier Sedan*, *Uber XL*).
+
+### 3. Cancellation & Lost Revenue
+* Deep dive into unfulfilled bookings.
+* Hourly cancellation distribution showing operational peak bottlenecks (morning & evening rush hours).
+* Root-cause breakdown of cancellation reasons (e.g., driver delay, incorrect address).
+
+### 4. Revenue & Financial Insights
+* Detailed revenue stream breakdown, unit economics metrics, and payment gateway distribution (UPI, Cash, Cards, Uber Wallet).
+
+---
+
+## 📸 Dashboard Preview
+<img width="1314" height="739" alt="image" src="https://github.com/user-attachments/assets/c0f1a5b7-5b89-45ae-b807-32fe9524ecf7" />
+<img width="1316" height="743" alt="image" src="https://github.com/user-attachments/assets/c534941a-d7d2-41ff-a7fc-f7c78ddb2a0f" />
+<img width="1334" height="751" alt="image" src="https://github.com/user-attachments/assets/5b5e8dbf-df36-4e42-82ef-f066ea0a05e5" />
+<img width="1312" height="735" alt="image" src="https://github.com/user-attachments/assets/c87c943e-cbe7-4f72-8c7e-99edb8fe476e" />
+<img width="1309" height="741" alt="image" src="https://github.com/user-attachments/assets/869612e5-0d17-44a2-a1be-9f2ece47f07d" />
+
+
+
+
+---
+
+## 💻 Sample SQL Queries
+
+ORDER BY CancellationRatePct DESC;
