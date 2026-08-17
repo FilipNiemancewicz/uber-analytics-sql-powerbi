@@ -57,4 +57,26 @@ An end-to-end Business Intelligence project analyzing **150,000+ Uber ride booki
 
 ## 💻 Sample SQL Queries
 
+<img width="1158" height="129" alt="image" src="https://github.com/user-attachments/assets/731a3e72-9b22-4b60-a99d-f2f78f5010a5" />
+<img width="817" height="50" alt="image" src="https://github.com/user-attachments/assets/361ef032-9c18-4c23-a215-2014e6b2c641" />
+
+<img width="961" height="206" alt="image" src="https://github.com/user-attachments/assets/3183ca35-9696-435b-89a4-648f56414e25" />
+<img width="771" height="167" alt="image" src="https://github.com/user-attachments/assets/eb2f5347-a1fa-48f7-b837-542607bce274" />
+
+<img width="929" height="169" alt="image" src="https://github.com/user-attachments/assets/998ac646-136a-4554-bb44-dda04c1bb71f" />
+<img width="452" height="129" alt="image" src="https://github.com/user-attachments/assets/12d80951-74c0-4473-983c-fdfece3c5626" />
+
+<img width="715" height="161" alt="image" src="https://github.com/user-attachments/assets/063682de-270d-4dbb-9ac0-a39676a242ba" />
+<img width="625" height="310" alt="image" src="https://github.com/user-attachments/assets/6b5a6d72-7e3f-43d3-8cb5-cdf6ae88f3d6" />
+
+<img width="531" height="280" alt="image" src="https://github.com/user-attachments/assets/08bd6f6e-e72d-4189-bbc7-7bd0ac98db9b" />
+<img width="445" height="46" alt="image" src="https://github.com/user-attachments/assets/a107880d-221d-465e-ba29-fb1d7031b866" />
+
+
+
+
+
+
+
+
 ORDER BY CancellationRatePct DESC;
